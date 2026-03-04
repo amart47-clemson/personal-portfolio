@@ -26,6 +26,7 @@ body {
   background: radial-gradient(circle at top, #111827 0, #020617 55%, #000 100%);
   color: var(--text);
   font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.6;
 }
 
 body {
@@ -124,11 +125,11 @@ a {
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 6px;
 }
 
 .hero-name {
-  font-size: clamp(2.1rem, 3vw, 2.5rem);
+  font-size: clamp(2.25rem, 3.2vw, 2.7rem);
   font-weight: 800;
 }
 
@@ -139,10 +140,10 @@ a {
 }
 
 .hero-tagline {
-  margin: 0;
-  font-size: 0.98rem;
+  margin: 4px 0 0;
+  font-size: 1rem;
   color: var(--text-muted);
-  max-width: 32rem;
+  max-width: 34rem;
 }
 
 .featured-card {
@@ -191,7 +192,7 @@ a {
 
 .featured-text {
   margin: 0 0 14px;
-  font-size: 0.94rem;
+  font-size: 0.96rem;
   color: var(--text-muted);
 }
 
@@ -302,7 +303,7 @@ a {
 
 .section-header p {
   margin: 0;
-  font-size: 0.94rem;
+  font-size: 0.96rem;
   color: var(--text-muted);
 }
 
@@ -333,7 +334,7 @@ a {
 
 .project-tagline {
   margin: 0 0 10px;
-  font-size: 0.92rem;
+  font-size: 0.95rem;
   color: var(--text-muted);
 }
 
@@ -373,7 +374,7 @@ a {
   display: grid;
   grid-template-columns: minmax(0, 1.6fr) minmax(0, 1.1fr);
   gap: 18px;
-  font-size: 0.95rem;
+  font-size: 0.97rem;
   color: var(--text-muted);
 }
 
