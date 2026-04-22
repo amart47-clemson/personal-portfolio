@@ -126,12 +126,14 @@
             <span class="chevron" aria-hidden="true"></span>
           </button>
           <div class="project-panel" data-accordion-panel>
+            <p class="placeholder-note"><strong>Phase 1</strong></p>
             <ul class="project-details">
               <li>Implemented persistent player identity with a `players` table (UUID `playerId`, globally unique `displayName`) and enforced DB constraints.</li>
               <li>Added strict API validation: reject client-supplied `playerId`, block duplicate joins in the same game, and reuse the same player identity across different games.</li>
               <li>Enforced move authorization and lifetime stats persistence (`totalGames`, wins/losses, `totalMoves`) with transactional updates and `GET /players/{playerId}` support.</li>
             </ul>
             <p class="placeholder-note"><strong>My role (Phase 1):</strong> I focused on the UI creation.</p>
+            <p class="placeholder-note"><strong>Phase 2</strong></p>
             <ul class="project-details">
               <li>Built the full Battleship client flow: player registration, open-game lobby, game creation, and join handling while keeping all Phase 1 endpoints backward compatible.</li>
               <li>Implemented core gameplay UX with ship placement, turn-based firing, board rendering for all players, move history timestamps, and clear active-turn indicators.</li>
