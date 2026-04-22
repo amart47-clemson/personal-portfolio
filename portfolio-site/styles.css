@@ -451,7 +451,8 @@ a {
 }
 
 .project-card.is-open .project-panel {
-  max-height: 260px;
+  max-height: 520px;
+  overflow-y: auto;
   opacity: 1;
   transform: translateY(0);
 }
